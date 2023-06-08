@@ -28,10 +28,24 @@ section {
     border-radius: 25px;
 }
 #section-1 {
-    display: none;
+    display: flex;
 }
 #section-2 {
-    display: flex;
+    display: none;
+    text-align: center;
+    align-items: center;
+}
+#section-2 img {
+    width: 45%;
+    height: 30%;
+}
+span {
+    margin-top: 1.75rem;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    padding: 0.25rem 1rem;
+    background-color: hsl(213, 19%, 18%);
 }
 h2 {
     color: #fff;
